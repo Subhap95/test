@@ -11,7 +11,7 @@ import com.plantect.self.service.service.PasscodeEmailLogService;
 
 @Controller
 public class JobsController {
-	private static final Logger logger = LoggerFactory.getLogger(JobsController.class);
+	private static final Logger logger = LoggerFactory.getLogger(JobsController.class);//log
 	
 	@Autowired
 	PasscodeEmailLogService passcodeEmailLogService;
